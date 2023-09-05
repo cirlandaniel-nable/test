@@ -14,6 +14,7 @@ public class Test {
     private Long transactionId = 123L;
 
     void myFunc0() {
+        <script>alert(1)</script>
         logger.info(String.format("Log <script> alert(1) </script> message info: user={%s}, transactionid={%d}", orderstatus, errorcode, user, transactionId));
     }
 
